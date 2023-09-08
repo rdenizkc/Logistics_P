@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>practice3__c</fullName>
+    <description>line by line</description>
+    <externalId>false</externalId>
+    <formula>TEXT( ABS(40) )  &amp; BR()  &amp;  TEXT( ABS(70) )   &amp;  BR()  &amp;  TEXT( ABS(-40) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>practice3</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

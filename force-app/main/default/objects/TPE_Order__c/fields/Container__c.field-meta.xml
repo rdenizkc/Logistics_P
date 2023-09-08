@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Container__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Container</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Container__c.Reserved_By__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.OwnerId</valueField>
+        </filterItems>
+        <filterItems>
+            <field>Container__c.Available__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </filterItems>
+        <filterItems>
+            <field>Container__c.Container__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Container__c</referenceTo>
+    <relationshipLabel>TPE Orders</relationshipLabel>
+    <relationshipName>TPE_Orders</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

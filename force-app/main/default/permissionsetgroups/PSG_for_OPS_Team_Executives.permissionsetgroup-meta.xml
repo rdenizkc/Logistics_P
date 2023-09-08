@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CRED right all for tree objects but mute delete for order and container</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PSG for OPS Team Executives</label>
+    <mutingPermissionSets>PSG_for_OPS_Team_Executives_Muted</mutingPermissionSets>
+    <permissionSets>Deniz__PS_for_Container</permissionSets>
+    <permissionSets>Deniz__PS_for_Order</permissionSets>
+    <permissionSets>Deniz__PS_for_Tenant</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

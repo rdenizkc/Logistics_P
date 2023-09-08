@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Welcome Flow without im {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Welcome Flow without im</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Welcome_Flow</name>
+        <label>Welcome Flow</label>
+        <locationX>430</locationX>
+        <locationY>228</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>welcomeText</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 20px; color: rgb(96, 66, 228); font-family: serif;&quot;&gt;&lt;em&gt; Welcome&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 16px; color: rgb(96, 66, 228);&quot;&gt;&lt;em&gt; &lt;/em&gt;&lt;/strong&gt;&lt;strong style=&quot;font-size: 16px; color: rgb(96, 66, 228); font-family: serif;&quot;&gt;&lt;em&gt;Dear Friend&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://techproeducation.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 16px; color: rgb(221, 85, 203); font-family: sans-serif;&quot;&gt;&lt;strong&gt;&lt;em&gt;TechProEd&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong style=&quot;font-size: 16px; color: rgb(221, 85, 203); font-family: sans-serif;&quot;&gt;&lt;em&gt; &lt;/em&gt;&lt;/strong&gt;&lt;strong style=&quot;font-size: 16px; color: rgb(81, 56, 192); font-family: sans-serif;&quot;&gt;&lt;em&gt;loves you! &lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;background-color: var(--slds-g-color-neutral-base-100, var(--lwc-colorBackgroundInput,rgb(255, 255, 255))); font-family: var(--lwc-fontFamily,-apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;); color: rgb(96, 66, 228); font-size: 14px;&quot;&gt;&lt;em&gt; ﻿&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px; color: rgb(96, 66, 228);&quot;&gt;&lt;em&gt;﻿&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <nextOrFinishButtonLabel>Have a nice day!</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>543</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Welcome_Flow</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>
